@@ -43,7 +43,7 @@ section.container {
 }
 
 article.resume {
-  width: 54rem;
+  width: 50rem;
   background-color: rgb(255, 255, 255);
   /* margin: 0 1rem; */
   box-shadow: 2px 4px 13px 3px rgb(0 0 0 / 50%);
@@ -108,12 +108,6 @@ div.right-column{
 }
 
 div.skills h2,
- div.contact h2{
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-bottom-color: rgb(255, 255, 255); 
- }
-div.skills h2,
  div.contact h2, 
  div.about-me h2, 
  div.experience h2{
@@ -125,6 +119,10 @@ border-bottom-width: 1px;
 border-bottom-color: rgba(15, 7, 7, 0.432);
 }
 
+div.skills h2,
+div.contact h2{
+border-bottom: 1px solid rgb(255, 255, 255); 
+ }
 p.contact-list {
     margin-top: 0.5rem;
 }
@@ -137,4 +135,7 @@ div.exp-body{
 
 div.experience-one {
     margin: 0.8rem 0;
+}
+div.exp-body {
+    margin-top: 0.5rem;
 }
